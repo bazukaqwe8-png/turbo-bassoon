@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Peace Foundation</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background: #123c69;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    background: #0b2545;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4d35e;
+}
+
+.hero {
+    background: linear-gradient(120deg, #206a8a, #57a6a1);
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+
+button {
+    background: #f4d35e;
+    color: #123c69;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section {
+    padding: 55px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #123c69;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #ddd;
+}
+
+.card h3 {
+    color: #206a8a;
+    margin-bottom: 15px;
+}
+
+.mission {
+    background: #dceef2;
+}
+
+.contact {
+    background: #eaf2f8;
+}
+
+footer {
+    background: #0b2545;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🕊️ WORLD PEACE FOUNDATION</h1>
+    <p>Promoting Peace, Love and Unity</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#programs">Programs</a>
+    <a href="#mission">Mission</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>TOGETHER FOR A PEACEFUL WORLD</h2>
+    <p>Building a future where everyone lives in harmony.</p>
+    <button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+        Discover More
+    </button>
+</div>
+
+<section id="about">
+    <h2>Who We Are</h2>
+    <p>World Peace Foundation is dedicated to promoting
+    peaceful communities, understanding, respect and unity.</p>
+</section>
+
+<section id="programs">
+    <h2>Our Programs</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🕊️ Peace Education</h3>
+            <p>Teaching people the importance of peace and tolerance.</p>
+        </div>
+
+        <div class="card">
+            <h3>🤝 Community Unity</h3>
+            <p>Bringing communities together through cooperation.</p>
+        </div>
+
+        <div class="card">
+            <h3>❤️ Youth Empowerment</h3>
+            <p>Encouraging young people to become peace ambassadors.</p>
+        </div>
+    </div>
+</section>
+
+<section class="mission" id="mission">
+    <h2>Our Mission</h2>
+    <p>To create a peaceful society where love, justice,
+    equality and respect are valued by everyone.</p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@worldpeace.org</p>
+    <p>Phone: +254 700 000 000</p>
+    <p>Location: Kenya</p>
+</section>
+
+<footer>
+    <p>© 2026 World Peace Foundation</p>
+    <p>PEACE BEGINS WITH YOU 🕊️</p>
+</footer>
+
+</body>
+</html>
